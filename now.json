@@ -1,8 +1,8 @@
 {
     "version": 2,
-    "name": "party-planner",
-    "builds": [{ "src": "party-planner/package.json", "use": "@now/static-build", "config": {"distDir": "build"} }],
+    "name": "party_planner",
+    "builds": [{ "src": "party_planner/package.json", "use": "@now/static-build", "config": {"distDir": "build"} }],
     "routes": [
-        { "src": "/(.*)", "dest": "party-planner/$1" }
+        { "src": "/(.*)", "dest": "party_planner/$1" }
     ]
 }
